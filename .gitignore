@@ -6,4 +6,6 @@ coverage
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-**/thumb*client*
+**/thunder-client*
+thunder-client-ai-blognest-api.postman_collection.json
+thunder-client-env.json
