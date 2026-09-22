@@ -3,7 +3,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const callGemini = async (prompt) => {
   const apiKey = process.env.GEMINI_API_KEY;
   // Fallback to gemini-1.5-flash if env is missing or invalid
-  const modelName = process.env.GEMINI_MODEL === 'gemini-1.5' ? 'gemini-1.5-flash' : (process.env.GEMINI_MODEL || 'gemini-1.5-flash');
+  const modelName = process.env.GEMINI_MODEL === 'gemini-3.7' ? 'gemini-3.7-flash' : (process.env.GEMINI_MODEL || 'gemini-3.7-flash');
 
   if (!apiKey) {
     throw new Error('Gemini API key is not configured');
