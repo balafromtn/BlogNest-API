@@ -73,7 +73,7 @@ Create a `.env` file in the root directory alongside `server.js`.
 
 Add the following environment variables:
 
-    PORT=5000
+    PORT=8000
     MONGO_URI=mongodb://127.0.0.1:27017/blognest
     JWT_SECRET=your_secure_random_string
     GEMINI_API_KEY=your_google_gemini_api_key
@@ -88,7 +88,7 @@ Run the backend development server:
 
 If everything is configured correctly, the console should display messages similar to:
 
-    Server running on port 5000
+    Server running on port 8000
     MongoDB connected
 
 ---
@@ -281,7 +281,7 @@ You can test the API using:
 
 | Variable | Description | Example |
 |---|---|---|
-| `PORT` | Port used by the Express server | `5000` |
+| `PORT` | Port used by the Express server | `8000` |
 | `MONGO_URI` | MongoDB connection string | `mongodb://127.0.0.1:27017/blognest` |
 | `JWT_SECRET` | Secret key used for JWT authentication | `your_secure_random_string` |
 | `GEMINI_API_KEY` | Google Gemini API key | `your_google_gemini_api_key` |
